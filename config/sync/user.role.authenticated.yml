@@ -1,0 +1,16 @@
+uuid: 28c6e98a-b0c2-462b-a5bd-2a13e93b554d
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - system
+_core:
+  default_config_hash: nX_HojtQCdDw7RcyUVttvYc0fQBNlyrnzvc8J8hC4i0
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'view media'
