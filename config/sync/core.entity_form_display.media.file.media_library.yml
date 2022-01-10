@@ -7,7 +7,14 @@ dependencies:
     - field.field.media.file.field_media_file
     - media.type.file
   module:
+    - field_layout
     - file
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: 3owquOxDpFBBmWy72D9yvrM7EVJ0Nf00dojMF4axfGI
 id: media.file.media_library
@@ -24,12 +31,12 @@ content:
     third_party_settings: {  }
   name:
     type: string_textfield
+    weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
-    weight: 0
     third_party_settings: {  }
-    region: content
 hidden:
   created: true
   path: true

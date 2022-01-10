@@ -6,7 +6,14 @@ dependencies:
     - field.field.media.remote_video.field_media_oembed_video
     - media.type.remote_video
   module:
+    - field_layout
+    - layout_discovery
     - media
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: CuYs0HbE7-wwPicyq-fPk4ogCwjp34_FZp_WOWY9JSU
 id: media.remote_video.default
@@ -17,11 +24,11 @@ content:
   field_media_oembed_video:
     type: oembed
     label: hidden
-    weight: 0
     settings:
       max_width: 0
       max_height: 0
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   created: true
