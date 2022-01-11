@@ -58,6 +58,7 @@
     "drupal/recaptcha": "^3.0",
     "drupal/redirect": "^1.6",
     "drupal/redis": "^1.4",
+    "drupal/scheduler": "^1.4",
     "drupal/search_api_solr": "^4.1",
     "drupal/seckit": "^2.0",
     "drupal/show_title": "^2.0",
