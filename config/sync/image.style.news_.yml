@@ -1,0 +1,14 @@
+uuid: 8854172a-0fe4-4b29-a628-798092ef3e09
+langcode: en
+status: true
+dependencies: {  }
+name: news_
+label: News(200x400)
+effects:
+  20a517e1-872d-46c3-9b33-dc0e7b410a05:
+    uuid: 20a517e1-872d-46c3-9b33-dc0e7b410a05
+    id: image_resize
+    weight: 1
+    data:
+      width: 200
+      height: 400
