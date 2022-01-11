@@ -8,7 +8,14 @@ dependencies:
     - image.style.medium
     - media.type.file
   module:
+    - field_layout
     - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: TgSL3L2qaWjGlxalQBw-R7PBfhwAmvu0JqGVSNgmdHk
 id: media.file.media_library
@@ -20,10 +27,10 @@ content:
     type: image
     label: hidden
     settings:
-      image_style: medium
       image_link: ''
-    weight: 0
+      image_style: medium
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   created: true
