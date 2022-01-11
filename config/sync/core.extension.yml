@@ -54,6 +54,7 @@ module:
   scheduler: 0
   show_title: 0
   smtp: 0
+  statistics: 0
   system: 0
   taxonomy: 0
   telephone: 0
