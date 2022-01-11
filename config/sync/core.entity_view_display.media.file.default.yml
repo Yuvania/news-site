@@ -6,7 +6,14 @@ dependencies:
     - field.field.media.file.field_media_file
     - media.type.file
   module:
+    - field_layout
     - file
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: JJGB4XpRzgPMIm8tDf_UUkYUBSdasBrqReqXQ9S5ZI8
 id: media.file.default
@@ -15,12 +22,12 @@ bundle: file
 mode: default
 content:
   field_media_file:
+    type: file_default
     label: visually_hidden
-    weight: 0
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    type: file_default
+    weight: 0
     region: content
 hidden:
   created: true

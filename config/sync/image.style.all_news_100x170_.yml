@@ -1,0 +1,14 @@
+uuid: 9e1d9b56-1584-47a2-9a43-a76de9e6b764
+langcode: en
+status: true
+dependencies: {  }
+name: all_news_100x170_
+label: all-news(100x170)
+effects:
+  ccd89b2a-cf34-4669-955e-2acb3b41d098:
+    uuid: ccd89b2a-cf34-4669-955e-2acb3b41d098
+    id: image_resize
+    weight: 1
+    data:
+      width: 100
+      height: 170

@@ -6,7 +6,14 @@ dependencies:
     - core.entity_view_mode.node.full
     - node.type.landing_page
   module:
+    - field_layout
+    - layout_discovery
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: GB4QNCGbVD0iPFcM-FvrUStPzqynY42DcoIFLUw1f7I
 id: node.landing_page.full
@@ -15,8 +22,8 @@ bundle: landing_page
 mode: full
 content:
   links:
-    weight: 100
     settings: {  }
     third_party_settings: {  }
+    weight: 100
     region: content
 hidden: {  }
