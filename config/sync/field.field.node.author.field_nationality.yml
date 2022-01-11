@@ -1,0 +1,29 @@
+uuid: 927dde37-db0a-42fd-86fa-48911f9c2566
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nationality
+    - node.type.author
+    - taxonomy.vocabulary.nacionality
+id: node.author.field_nationality
+field_name: field_nationality
+entity_type: node
+bundle: author
+label: Nationality
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nacionality: nacionality
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

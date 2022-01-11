@@ -1,0 +1,14 @@
+uuid: 374900a0-f82a-4e87-9942-bfed17493bb3
+langcode: en
+status: true
+dependencies: {  }
+name: authors_200x200_
+label: Authors(200X200)
+effects:
+  860d53cc-1d67-4951-ac54-b3a8ea98a1e2:
+    uuid: 860d53cc-1d67-4951-ac54-b3a8ea98a1e2
+    id: image_resize
+    weight: 1
+    data:
+      width: 200
+      height: 200

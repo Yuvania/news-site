@@ -1,0 +1,7 @@
+uuid: 35a70822-d4f0-4a01-bd74-08592f69ee5e
+langcode: en
+status: true
+dependencies: {  }
+formId: comment_comment_form
+captchaType: recaptcha/reCAPTCHA
+label: comment_comment_form
