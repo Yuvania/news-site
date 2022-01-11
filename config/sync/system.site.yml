@@ -3,12 +3,12 @@ _core:
 langcode: en
 uuid: e6191fd0-ba37-4233-a58f-6401649f27eb
 name: Drupal
-mail: admin@example.com
+mail: castilloyuvania15@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /news
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
