@@ -1,9 +1,10 @@
-uuid: 832e41e0-696e-4a27-8c86-470bea1921d8
+uuid: 56383c8d-ead6-4d0f-a827-7b014beb060c
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_display.comment.comment.default
+    - core.entity_view_mode.node.full
     - field.field.node.news.body
     - field.field.node.news.field_author
     - field.field.node.news.field_category
@@ -29,10 +30,10 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
-id: node.news.default
+id: node.news.full
 targetEntityType: node
 bundle: news
-mode: default
+mode: full
 content:
   body:
     type: text_default
