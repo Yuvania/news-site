@@ -1,0 +1,18 @@
+uuid: d9f01c7b-add8-4b39-ae34-9d5795418933
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: News
+type: news
+description: 'News on different topics.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
